@@ -41,9 +41,11 @@ predictions_total = lm.predict(X)
 predictions_train= lm.predict(X_train)
 predictions_test= lm.predict(X_test)
 
+#displaying the binary metrics using a class display_binary_metrics defined in Advanced Analytics module
 from AdvancedAnalytics import logreg
 logreg.display_binary_metrics(lm,X,Y)
 
+#reverse mapping the binaries to strings
 reverse_map ={0:'R',1:'M'}
 sonar['predictions']=predictions_total
 sonar['predictions']=sonar['predictions'].map(reverse_map)
