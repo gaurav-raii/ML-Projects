@@ -1,4 +1,4 @@
-# Clustering to gain insights from Titanic Passanger Dataset
+# Clustering to gain insights from Titanic Passenger Dataset
 * Famous Titanic Dataset was used to perform the analysis.
 * PCA was applied to reduce the dimensionality of the data to make the clustering process efficient
 * K Means Clustering and Mean Shift clustering both were employed to discover clusters of passengers
