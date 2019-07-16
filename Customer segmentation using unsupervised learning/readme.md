@@ -4,7 +4,7 @@
 * Since the data does not have any target, unsupervised learning has been employed to figure out the pattern
 
 The techniques used were:
-1) Kmeans clustering algorithm
+1) K-means clustering algorithm
 2) Hierarchical clustering algorithm
 
 Elbow method was used to get the optimized number of clusters.
